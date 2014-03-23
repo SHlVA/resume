@@ -7,7 +7,7 @@
 
 ## Overview
 
-Software developer with 13+ years of experience in design and development of applications and infrastructure on control/embedded/general purpose systems. In the past, network/data-center management has been my staple. For the last five years, I have been working on management infrastructure and App SDK for the IP operating system for Ericsson networking devices, related to provided FCAPS support for various domains/applications/platforms that leverage this OS. 
+Software developer with 13+ years of experience in design and development of applications and infrastructure on control/embedded/general purpose systems. In the past, network/data-center management has been my staple. For the last five years, I have been working on management infrastructure and App-SDK for the IP operating system for Ericsson networking devices, related to provided FCAPS support for various domains/applications/platforms that leverage this OS. 
 
 In addition to my day job, I sometimes dabble in solving problems for fun. Some of them can be found at [github.com/shiva][3].
 
@@ -15,28 +15,29 @@ In addition to my day job, I sometimes dabble in solving problems for fun. Some 
 
 ### Aug 2007 to now  - Ericsson Inc. (acquired Redback) / Redback Networks, Vancouver, Canada
 
- * Re-architecture of a codebase of ~22 million lines to create components, defining APIs, and SDKs for improving modularity, and developer productivity. (on-going)
- * Working on creating a generic network OS from legacy system that uses a custom run-to-completion version of the linux kernel. (on-going)
- * Re-design of build infrastructure. Moved from custom written makefiles to cmake-based toolchain (ongoing)
- * Consulation for various projects for (on-going)
+ * Re-architecture of a code-base of ~22 million lines to create components, defining APIs, and SDKs for improving modularity, and developer productivity. (on-going)
+ * Working on a generic linux kernel based network OS. The legacy system uses a custom run-to-completion version of the linux kernel. (on-going)
+ * Re-design of build infrastructure. Moved from custom written makefiles to cmake based tool-chain (ongoing)
+ * Consultation for various projects for (on-going)
      + migrating to newly created management infrastructure
 	 + leverage tools, frameworks and utilities created to improve quality and developer productivity
 	 + Define, evangelize and enforce design guidelines 
 	     + for customer-visible NBI models
 		 + for internal APIs between components
      + training sessions and mentoring	 
- * Custom DSL to provide ORM between two proprietary data-definitions languages.
- * Built a parser-generator for proprietary UML=based language. This was used successfully to generate
-     + unit/functional test code (based on a interface agonistic test framework I designed)
+ * Wrote a custom DSL to provide ORM between two proprietary data-definitions languages.
+ * Built a parser-generator for proprietary UML-based language. This was used successfully to generate
+     + Unit/Functional test code (based on a interface-agnostic test framework written in python + SWIG)
      + ORM files as a starting point for mapping model-based input, to platform-specific API calls to store/retrieve from an in-memory DB.
      + Sample configuration for NMS developer/end-customers to understand a specific set of models. 
  * Ported software for License-management from generic linux to proprietary platform.
  * Built core-infrastructure for model-based NBI support - CLI, NETCONF, SNMP. 
  * Created SDK for applications to plug into the aforementioned infrastructure
      + Configuration and Fault Management APIs
-     + License Management, Authorisation 
+     + License Management, Authorization 
  * Network management: device integration, custom SOAP/XML northbound interface, GUI
- * Study and work for replacing CORBA based legacy fault mgmt implementation with pub-sub
+ * Study and work for replacing CORBA based legacy fault management implementation with pub-sub
+ * Network Management support for several networking features - Dot1q, Bridging, L2/L3 VPN, etc
 
 ### Dec 2006 to Jul 2007  - Novell, Bangalore, India	
 
@@ -51,7 +52,7 @@ In addition to my day job, I sometimes dabble in solving problems for fun. Some 
  * Component for RMI and eventing over HTTP using SOAP and HTTP persistent connection.
  * Client utility to aggregate end-host information.
  * In-memory logging framework with no performance impact.
- * Case-study on replacing CORBA dependant components with SOAP services.
+ * Case-study on replacing CORBA dependent components with SOAP services.
 
 ### May 2001 to Oct 2002 - Intec Solutions, Chennai, India
 
