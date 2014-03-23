@@ -1,10 +1,14 @@
-all:	resume-phil.html resume-phil.pdf
+all: resume-shiva.html resume-shiva.pdf symlnk
+
+symlnk: 
+	rm -f index.html
+	ln -s resume-shiva.html index.html
 
 %.html:	%.md
-	pandoc -t html -o $@ $< -c resume.css -A footer.html -B header.html
+	pandoc -t html -o $@ $< -c res/resume.css -A res/footer.html -B res/header.html
 
 %.pdf:	%.md
-	pandoc -o $@ --template=resume-template.tex --latex-engine=xelatex \
+	pandoc -o $@ --template=res/resume-template.tex --latex-engine=xelatex \
         --variable mainfont="Times New Roman" \
         --variable fontsize=12 $<
 
