@@ -49,19 +49,18 @@ In addition to my day job, I sometimes dabble in solving programming problems fo
 
 ### Nov 2002 to Dec 2006 - HCL Technologies (Cisco Partner), Chennai, India
 
- * Designed and built high-scale system for monitoring traps from access layer devices to track end-hosts in a network.
+ * Designed and built high-scale system for monitoring traps from access-layer devices to track end-hosts in a network.
  * Designed and developed DHTML and javascript based Topology display framework.
  * Architected framework for multi-path stage-based code execution.
  * Created a component for RMI and eventing over HTTP using SOAP and persistent connections.
  * Created a popular client utility to aggregate end-host information.
- * Designed and implemented an in-memory logging framework with no performance impact.
  * Led case-study on replacing CORBA dependent components with SOAP services.
 
 ### May 2001 to Oct 2002 - Intec Solutions, Chennai, India
 
- * Led configuration and management of devices used for instrumentation and control on several products.
- * Created components that implement MODBUS and CANBUS protocols to interact with micro-controllers using ATL COM.
- * Implemented standard development processes, including: formal documentation at various stages of product development, version control, static analysis, etc.  
+ * Created management application for several products used for industrial automation.
+ * Created components to interact with micro-controllers using MODBUS and CANBUS in ATL COM.
+ * Implemented standard development processes, including: documentation, version control, static analysis, code-reviews, etc.  
 
 ## Skills
 
