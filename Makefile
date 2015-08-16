@@ -9,7 +9,7 @@ symlnk:
 
 %.pdf:	%.md
 	pandoc -o $@ --template=res/resume-template.tex --latex-engine=xelatex \
-        --variable mainfont="Times New Roman" \
+        --variable mainfont="Georgia" \
         --variable fontsize=12 $<
 
 clean:
