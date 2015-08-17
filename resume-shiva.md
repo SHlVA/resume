@@ -16,14 +16,14 @@ In addition to my day job, I sometimes dabble in solving programming problems fo
 
 #### Recent achievements
  * Define vision, strategy and architecture for application development on IPOS. (on-going)
- * Design and develop Managed Data Infrastructure (MDI), a design method with multiple DSLs to achieve declarative programming of applications. (on-going)
+ * Design and develop Managed Data Infrastructure (MDI). MDI is a set of components that provides access to data via a standard API. It includes a DSL for applications to describe the structure and constraints, a DSL for mapping the feature model to YANG representation. (on-going)
  * Built three key teams that will transform application development on IPOS-based devices and platforms by delivering MDI.
+ * Designed common models for IPOS and evangelized Ericsson Common Information Model (ECIM) and its adoption across IPOS features. This included setting standards, establishing a technical council of developers proficient in modeling, training and mentoring them to work with IPOS feature teams.
  * Created a high-density, low-latency, transactional datastore with record-level locking.
  * Created a meta-data aware, non-transactional cache with eventual data consistency.
  * Created a portable plugin framework for C applications.
  * Designed and engineered an API for data access using MDI and its components, to build northbound interfaces like CLI, NETCONF-agents, and RESTful services.
  * Implemented python and javascript apps to demonstrate MDI's abilities as a ecosystem for rapid app development (using SWIG and FFI).
- * Designed common models for IPOS and evangelized Ericsson Common Information Model (ECIM) and its adoption across IPOS features. This included setting standards, establishing a technical council of developers proficient in modeling, training and mentoring them to work with IPOS feature teams.
  * Active consultation for various projects to:
      + Design configuration and run-state models for several feature daemons on IPOS like OSPF, Timing and Sync, Hardware Management, License Management, Bridging, etc.
      + Champion adoption of tools and processes by training and mentoring teams and individuals.
