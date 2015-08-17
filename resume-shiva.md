@@ -23,8 +23,9 @@ In addition to my day job, I sometimes dabble in solving programming problems fo
  * Created a portable plugin framework for C applications.
  * Designed and engineered an API for data access using MDI and its components, to build northbound interfaces like CLI, NETCONF-agents, and RESTful services.
  * Implemented python and javascript apps to demonstrate MDI's abilities as a ecosystem for rapid app development (using SWIG and FFI).
+ * Designed common models for IPOS and evangelized Ericsson Common Information Model (ECIM) and its adoption across IPOS features. This included setting standards, establishing a technical council of developers proficient in modeling, training and mentoring them to work with IPOS feature teams.
  * Active consultation for various projects to:
-     + Design configuration and run-state data for several feature daemons on IPOS like OSPF, Timing and Sync, Hardware Management, License Management, Bridging, etc.
+     + Design configuration and run-state models for several feature daemons on IPOS like OSPF, Timing and Sync, Hardware Management, License Management, Bridging, etc.
      + Champion adoption of tools and processes by training and mentoring teams and individuals.
      + Define and evangelize software design practices within the IPOS organisation.
 
@@ -35,7 +36,6 @@ In addition to my day job, I sometimes dabble in solving programming problems fo
  * Built a parser-generator for proprietary UML-based language. This was used successfully to generate:
      + Unit/Functional test code (based on a interface-agnostic test framework written in python + SWIG).
      + ORM files for mapping model-based input to platform-specific API calls.
- * Supported license management in IPOS.
  * Built infrastructure for model-based NBI support, including: CLI, NETCONF, SNMP, etc.
  * Created SDK for applications to plug into infrastructure.
  * Provided device integration, custom SOAP/XML northbound interface and GUI for the Netop product.
