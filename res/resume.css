@@ -3,9 +3,28 @@ body {
     width: 7.5in;
     padding: .5in;
     padding-bottom: 0;
-    font-family: helvetica, Verdana, sans-serif;
+    font-family: Georgia, serif;
     color: #2E2B00;
     background: #FBFBFB;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Serif;
+}
+
+h2 {
+    margin-top: 2em;
+    font-family: 'Helvetica Neue', Helvetica, Serif;
+}
+
+h3 {
+    margin-top:0;
+    font-family: Georgia, serif;
+}
+
+h4 {
+    margin-top:0;
+    font-family: Georgia, serif;
 }
 
 * {
@@ -18,10 +37,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-h2 {
-    margin-top:0;
 }
 
 li {

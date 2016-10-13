@@ -1,6 +1,6 @@
 all: resume-shiva.html resume-shiva.pdf symlnk
 
-symlnk: 
+symlnk:
 	rm -f index.html
 	ln -s resume-shiva.html index.html
 
@@ -10,6 +10,7 @@ symlnk:
 %.pdf:	%.md
 	pandoc -o $@ --template=res/resume-template.tex --latex-engine=xelatex \
         --variable mainfont="Georgia" \
+        --variable sansfont="Helvetica Neue" \
         --variable fontsize=12 $<
 
 clean:
