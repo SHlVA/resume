@@ -6,13 +6,19 @@
 
 ## Overview
 
-Software engineer with 14+ years of experience in design and development of applications and infrastructure on control, embedded and general-purpose systems. Previously, network management was my staple. For the last six years, I have focussed on improving productivity and quality of IP operating system (IPOS) applications for Ericsson networking devices.
+Software engineer with 15+ years of experience in design and development of applications and infrastructure on control, embedded and general-purpose systems. Previously, network management was my staple. For the last six years, I have focussed on improving productivity and quality of IP operating system (IPOS) applications for Ericsson networking devices.
 
 In addition to my day job, I sometimes dabble in solving programming problems for fun. Some of them can be found at [github.com/shiva][3].
 
 ## Experience
 
-### Aug 2007 to now - Ericsson Inc. (acquired Redback Networks), Vancouver, Canada
+### Jan 2016 to now - HCL Axon Technologies (Ericsson), Vancouver, Canada
+
+#### Recent achievements
+
+
+
+### Aug 2007 to Dec 2015 - Ericsson Inc. (acquired Redback Networks), Vancouver, Canada
 
 #### Recent achievements
  * Define vision, strategy and architecture for application development on IPOS. (on-going)
