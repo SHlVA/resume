@@ -8,9 +8,10 @@ symlnk:
 	pandoc -t html -o $@ $< -c res/resume.css -A res/footer.html -B res/header.html
 
 %.pdf:	%.md
-	pandoc -o $@ --template=res/resume-template.tex --latex-engine=xelatex \
+	pandoc -o $@ --template=res/resume-template.tex --pdf-engine=xelatex \
         --variable mainfont="Georgia" \
-        --variable sansfont="Helvetica Neue" \
+        --variable sansfont="Georgia" \
+        --variable monofont="Georgia" \
         --variable fontsize=12 $<
 
 clean:
