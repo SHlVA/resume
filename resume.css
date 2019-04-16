@@ -27,3 +27,10 @@ h2 {
 li {
     margin-top: .2em;
 }
+
+#footer {
+    padding-top: 1em;
+    font-size: 70%;
+    color: gray;
+    text-align: center;
+}

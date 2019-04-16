@@ -1,25 +1,43 @@
-\documentclass[fontsize=11pt]{article}
+\documentclass[fontsize=12pt]{article}
 \usepackage{amssymb,amsmath}
 
 \usepackage[top=1in, bottom=1in, left=1.25in, right=1.25in]{geometry}
 \pagestyle{empty}
 
-$if(xetex)$
-\usepackage{ifxetex}
-\ifxetex
-  \usepackage{fontspec,xltxtra,xunicode}
-  \setmainfont{Times New Roman}
-  \setsansfont{Verdana}
-  \setmonofont{Courier New}
-  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-\else
-  \usepackage[mathletters]{ucs}
-  \usepackage[utf8x]{inputenc}
-\fi
-$else$
-\usepackage[mathletters]{ucs}
-\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+
+$if(euro)$
+  \usepackage{eurosym}
 $endif$
+\else % if luatex or xelatex
+  \usepackage{fontspec}
+  \ifxetex
+    \usepackage{xltxtra,xunicode}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{â‚¬}
+$if(mainfont)$
+    \setmainfont{$mainfont$}
+$endif$
+$if(sansfont)$
+    \setsansfont{$sansfont$}
+$endif$
+$if(monofont)$
+    \setmonofont{$monofont$}
+$endif$
+$if(mathfont)$
+    \setmathfont{$mathfont$}
+$endif$
+\fi
+
 $if(natbib)$
 \usepackage{natbib}
 \bibliographystyle{plainnat}

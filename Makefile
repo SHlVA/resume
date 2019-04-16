@@ -1,16 +1,12 @@
 all:	resume-phil.html resume-phil.pdf
 
 %.html:	%.md
-	pandoc -t html -o $@ $< -c resume.css
-	#./resume-uploader $@ $< resume.css
-	git commit -m "update html via makefile" $@ $< Makefile README.md
-	git push origin master
+	pandoc -t html -o $@ $< -c resume.css -A footer.html
 
 %.pdf:	%.md
-	md2pdf $<
-	#./resume-uploader $@ $< resume-template.tex
-	git commit -m "update pdf via makefile" $@ $< Makefile README.md
-	git push origin master
+	pandoc -o $@ --template=resume-template.tex --latex-engine=xelatex \
+        --variable mainfont="Times New Roman" \
+        --variable fontsize=12 $<
 
 clean:
 	rm -f *~ *.html *.log *.pdf
