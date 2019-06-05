@@ -6,40 +6,39 @@
 
 ## Overview
 
-Product owner and architect with 17+ years of experience in design and development of enterprise and telecommunications applications. Adept in building and working with high-performing engineering teams. 
-
-In addition to my day job, I sometimes dabble in solving programming problems for fun. Some of them can be found at [github.com/shiva][3].
+Product leader with 18+ years of experience in design and development of software products. A inquisitive problem-solver that drives decisions based on a data-driven first principles approach. Excellent communication, collaboration and organizational skills. Demonstrated success in tackling hard engineering problems and delivering products and solutions that have impact on the organization. Adept in building and working with high-performing engineering teams. 
 
 ## Experience
 
 ### May 2017 to present - GE Digital, Burnaby, Canada 
 
-   * Owning and driving product requirements for security and data management for two key GE Digital products: Predix Studio and Predix AppEngine.
-     - Target markets include GE business verticals of power, mining, aviation and healthcare.
-     - Total addressable revenue potential: 100M+
-   * Championing adoption of cloudfoundry security model resulting in integration with other GE products targeting 100M+ potential revenue.
-   * Initiated and drove the adoption of GE security policies reducing number of security issues from 1000+ to under 10.
-   * Instituted data-driven approach to product roadmap definition and planning
-   * Channeled all engineering teams' focus to improve product quality. Reduced from 3000+ bugs to less than 200.
-   * Reduced operational cost by streamlining product infrastructure, testing practices and instituting CI/CD. Reduced bug incidence during regression by ~300% YoY. (tracking this over the last 3 quarters)
+  * Product Manager for two key GE Digital products: Predix Studio and Predix AppEngine.
+    - Target markets include GE business verticals of power, mining, aviation and healthcare.
+    - Total addressable revenue potential: 100M+
+  * Drove impactful architectural changes to enabling access to security conscious veritcals like healthcare and aviation.
+  * Instituted data-driven approach to product roadmap definition and planning and shifted to a continous improvement model of developing products.
+  * Initiated and drove the adoption of GE security policies reducing number of security issues from 1000+ to 0.
+  * Channeled engineering teams' focus to improve product quality. Reduced from 3000+ bugs to less than 200 in 1 year.
+  * Reduced operational cost by streamlining product infrastructure, testing practices and instituting CI/CD. This reduced bug incidence during regression by ~300% YoY.
 
 ### Jan 2016 to May 2017 - HCL Axon Technologies (for Ericsson Inc.), Burnaby, Canada
-### Aug 2007 to Dec 2015 - Ericsson Inc., Burnaby, Canada
+### Jan 2010 to Dec 2015 - Ericsson Inc., Burnaby, Canada
+### Aug 2007 to Dec 2009 - Redback Networks, Burnaby, Canada (An Ericsson Company)
 
 #### As a product owner 
    * Defined vision, strategy and roadmap for next-gen declarative application development on IPOS product line.
      - Secured executive buy-in and investment in multi-year infrastructure projects.
      - Prioritized and shaped requirements from multiple stakeholders, including: developers, system managers and product sponsors within Ericsson.
      - Built and mentored four agile product development teams across multiple sites and time-zones.
-   * Migrated six router applications within three months resulting in
-     - Reduced code base by 70 to 80 per cent;
+   * Migrated six applications within three months resulting in
+     - Reduced code base by upto 80%.
      - Increased developer productivity by two to three times; and,
      - Improved time to market from months to days.
 
 #### As an engineer/architect
 
    * Designed and developed Managed Data Infrastructure (MDI). MDI is a set of components for managing schema-based data using a high performance database in carrier-class router operating system.
-   * Created a meta-data aware, non-transactional cache with eventual data consistency.
+   * Created a meta-data aware, non-transactional cache.
    * Created a high-density, low-latency, transactional datastore with record-level locking.
    * Shortened development cycle from hours to seconds by redesigning build infrastructure for IPOS platform and components.
    * Wrote a custom DSL to provide Object Relationship Mapping (ORM) between two proprietary data-definitions languages.
@@ -67,10 +66,10 @@ In addition to my day job, I sometimes dabble in solving programming problems fo
 
 ## Skills
 
-Experienced in product management, architecture and design of high-performance and high-scale databases and IP operating systems. Experienced in leading teams to design and build network management solutions. Expert in C and C++, with an emphasis on development in embedded systems.
+Experienced in product management, architecture and design of high-performance and high-scale industrial software, databases and IP operating systems. Experienced in leading teams to design and build network management solutions. Expert in C and C++, with an emphasis on development in embedded systems.
 
-   * Languages      : C, C++, Java, Javascript, Python, BASH scripting, Perl, Ruby, Go, Rust, Nimrod, Terra
-   * Build Tools    : CMake, Make
+   * Languages      : C, C++, Java, Javascript, Python, BASH, Perl, Ruby, Go, Rust, Nimrod, Terra
+   * Build Tools    : CMake, Make, Ninja
    * Source Control : Git, CVS, SVN, Mercurial, Clearcase
    * Miscellaneous  : XML, XSLT, SOAP, XQUERY, SWIG, ANTLR, Flex/Bison, JSON, REST
    * N/W tech       : NETCONF, RESTCONF, SNMP, L2 and L3 protocols
