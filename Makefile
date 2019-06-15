@@ -1,4 +1,4 @@
-all: resume-shiva.html resume-shiva.pdf symlnk
+all: resume-shiva.html resume-shiva.pdf resume-shiva.docx symlnk
 
 symlnk:
 	rm -f index.html
@@ -14,5 +14,11 @@ symlnk:
         --variable monofont="Georgia" \
         --variable fontsize=12 $<
 
+%.docx: %.md
+	pandoc -t docx -o $@ $<
+
+.PHONY: clean
 clean:
-	rm -f *~ *.html *.log *.pdf
+	rm -f *~ *.html *.log *.pdf *.docx
+
+
