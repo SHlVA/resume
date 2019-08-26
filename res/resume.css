@@ -3,28 +3,28 @@ body {
     width: 7.5in;
     padding: .5in;
     padding-bottom: 0;
-    font-family: Georgia, serif;
+    font-family: "Open Sans", Georgia, serif;
     color: #2E2B00;
     background: #FBFBFB;
 }
 
 h1 {
-    font-family: 'Helvetica Neue', Helvetica, Serif;
+    font-family: 'Merriweather', Georgia, Serif;
 }
 
 h2 {
     margin-top: 2em;
-    font-family: 'Helvetica Neue', Helvetica, Serif;
+    font-family: 'Merriweather', Georgia, Serif;
 }
 
 h3 {
     margin-top:0;
-    font-family: Georgia, serif;
+    font-family: 'Merriweather', Georgia, Serif;
 }
 
 h4 {
     margin-top:0;
-    font-family: Georgia, serif;
+    font-family: 'Merriweather', Georgia, serif;
 }
 
 * {
