@@ -30,7 +30,7 @@ _Reporting to the Director of Product, accountable for two key GE Digital produc
 
 **ERICSSON INC. (HCL Axon Technologies, Redback Networks)**  Burnaby, British Columbia   **2007-2017**
 
-_Progressive career and reporting structures, beginning with Redback Networks as part of the Ericsson Inc. Organization. Began as Senior Software Engineer, moving into Team Lead and Product Owner._
+_Progressive career and reporting structures, beginning with Redback Networks as Senior Software Engineer, moving into Team Lead and Product Owner._
 
 **Product Owner** (2014-2017)
 
@@ -42,7 +42,7 @@ _Reporting to a Senior Manager, defined vision, strategy and roadmap for next-ge
 - Built and mentored multiple agile product development teams across North America and East Asia.  multiple sites and time-zones. Leveraged agile methodologies to successfully develop high performing teams to deliver key projects on time and within budget.
 - Migrated six applications within three months resulting in reduced code base by up to 80%; increased developer productivity by two to three times; and, improved time to market from months to days.
 
-**Engineer/Architect**
+**Engineer/Architect** (2007-2016)
 
 _Reporting to a Senior Manager, led and managed diverse projects and product improvement initiatives including core infrastructure, configuration management, and license management._
 
@@ -57,11 +57,11 @@ _Reporting to a Senior Manager, led and managed diverse projects and product imp
 
 ## PREVIOUS PROFESSIONAL EXPERIENCE
 
-_Novell Inc_, Bangalore, India, Senior Software Engineer
+_Novell Inc_, Bangalore, India, Senior Software Engineer (2006-2007)
 
-_HCL Technologies (Cisco Partner)_, Chennai, India, Lead Engineer
+_HCL Technologies (Cisco Partner)_, Chennai, India, Lead Engineer (2002-2006)
 
-_Intec Solutions_, Chennai, India, Software Engineer
+_Intec Solutions_, Chennai, India, Software Engineer (2001-2002)
 
 
 ## EDUCATION &amp; PROFESSIONAL DEVELOPMENT
@@ -73,7 +73,7 @@ _Disruptive Strategy Certificate_, Clayton Christensen, Harvard School of Busine
 ## SKILLS
 Proven expertise in product management, architecture and design of high-performance and high-scale industrial software, databases and IP operating systems. Expert in C and C++, with an emphasis on development in embedded systems.
 
- - Product Management: JTBD Theory, Product strategy definition, Disruptive Innovation Theory, Lean Startup
+ - Product Management: JTBD Theory, Product strategy definition, Disruptive Innovation Theory, Lean Startup, Scrum and Agile practices
  - Languages : C, C++, Java, Javascript, Python, BASH, Perl, Ruby, Go, Rust, Nimrod, Terra
  - Build Tools : CMake, Make, Ninja
  - Source Control : Git, CVS, SVN, Mercurial, Clearcase
